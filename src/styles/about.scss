@@ -1,0 +1,21 @@
+.about-us {
+  width: 80%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  margin: auto;
+
+  .aboutuscol {
+    flex-basis: 48%;
+    padding: 30px 2px;
+
+    img {
+      width: 100%;
+    }
+    h1 {
+      padding: 0;
+    }
+    p {
+      padding: 15px 0 25px;
+    }
+  }
+}

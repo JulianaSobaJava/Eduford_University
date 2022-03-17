@@ -1,0 +1,42 @@
+/*Courses*/
+.course h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.course p {
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+  padding: 10px;
+  font-weight: 300;
+  line-height: 22px;
+}
+.rowcol {
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.rowcol h3 {
+  margin: 10px 0;
+  text-align: center;
+  font-weight: 600;
+}
+.rowcol:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  background: #fff3f3;
+}
+
+@media (max-width: 800px) {
+  .comum {
+    margin-top: 12%;
+  }
+
+  .rowcol {
+    height: 20%;
+  }
+}
